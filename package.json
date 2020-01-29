@@ -1,0 +1,47 @@
+{
+  "name": "@madmurl0c/ngx-compress",
+  "version": "1.0.3",
+  "description": "Compress your angular app for static gzip/brotli",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build"
+  },
+  "bin": {
+    "ngx-compress": "lib/cli.js"
+  },
+  "keywords": [
+    "brotli",
+    "gzip",
+    "compress"
+  ],
+  "author": "MadMurl0c",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.5.1",
+    "@types/yargs": "^15.0.2",
+    "prettier": "^1.19.1",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "yargs": "^15.1.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madmurl0c/ngx-compress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/madmurl0c/ngx-compress/issues"
+  },
+  "homepage": "https://github.com/madmurl0c/ngx-compress#readme"
+}
